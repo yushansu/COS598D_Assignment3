@@ -254,7 +254,7 @@ class TrialDispatcher extends TrainingService {
     }
 
     public async initConfig(config: ExperimentConfig): Promise<void> {
-        this.log.info(`TrialDispatcher: config = ${config}`);
+        this.log.info(`TrialDispatcher: config = ${JSON.stringify(config)}`);
         this.nniManagerIp = config.nniManagerIp;
 
         this.enableVersionCheck = !config.debug;

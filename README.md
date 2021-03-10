@@ -4,7 +4,9 @@ Efficient Neural Architecture Search via Parameter Sharing (ENAS)[1], DARTS: Dif
 
 ### References 
 [1] Pham, H., Guan, M., Zoph, B., Le, Q. and Dean, J., 2018, July. Efficient neural architecture search via parameters sharing. In International Conference on Machine Learning (pp. 4095-4104). PMLR.
+
 [2] Liu, H., Simonyan, K. and Yang, Y., 2018. Darts: Differentiable architecture search. arXiv preprint arXiv:1806.09055.
+
 [3] Chen, X., Xie, L., Wu, J. and Tian, Q., 2019. Progressive differentiable architecture search: Bridging the depth gap between search and evaluation. In Proceedings of the IEEE/CVF International Conference on Computer Vision (pp. 1294-1303).
 
 # Your tasks

@@ -12,7 +12,7 @@
 [![Version](https://img.shields.io/github/release/Microsoft/nni.svg)](https://github.com/Microsoft/nni/releases) [![Join the chat at https://gitter.im/Microsoft/nni](https://badges.gitter.im/Microsoft/nni.svg)](https://gitter.im/Microsoft/nni?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Documentation Status](https://readthedocs.org/projects/nni/badge/?version=latest)](https://nni.readthedocs.io/en/latest/?badge=latest)
 
-[NNI Doc](https://nni.readthedocs.io/) | [简体中文](README_zh_CN.md)
+[NNI Doc](https://nni.readthedocs.io/)
 
 **NNI (Neural Network Intelligence)** is a lightweight but powerful toolkit to help users **automate** <a href="docs/en_US/FeatureEngineering/Overview.rst">Feature Engineering</a>, <a href="docs/en_US/NAS/Overview.rst">Neural Architecture Search</a>, <a href="docs/en_US/Tuner/BuiltinTuner.rst">Hyperparameter Tuning</a> and <a href="docs/en_US/Compression/Overview.rst">Model Compression</a>.
 

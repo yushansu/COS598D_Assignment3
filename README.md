@@ -16,11 +16,25 @@ Efficient Neural Architecture Search via Parameter Sharing (ENAS)[1] and DARTS: 
 
 # How to run?
 Python >= 3.6, Pytorch >= 1.7.0
+
+## DARTS
+### Search
+```
+# search the best architecture
+cd examples/nas/darts
+python3 search.py --v1 --visualization
+
+# train the best architecture
+python3 retrain.py --arc-checkpoint ${Your saved checkpoint}
+```
+
 ## ENAS
 ### Search 
 ```
 cd examples/nas/enas/
 
-# search in micro search space
+# search in micro search space, where each unit is a cell
 python3 search.py --search-for micro
 ```
+
+

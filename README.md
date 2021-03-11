@@ -1,6 +1,6 @@
 # Neural Architecture Search (NAS)
 In this assignment, you are required to use an open source AutoML toolkit (NNI) for neural architecture search. You are ask to compare three different NAS methods:
-Efficient Neural Architecture Search via Parameter Sharing (ENAS)[1] and DARTS: Differentiable Architecture Search[2]
+Efficient Neural Architecture Search via Parameter Sharing (ENAS)[1] and DARTS: Differentiable Architecture Search[2].
 
 ### References 
 [1] Pham, H., Guan, M., Zoph, B., Le, Q. and Dean, J., 2018, July. Efficient neural architecture search via parameters sharing. In International Conference on Machine Learning (pp. 4095-4104). PMLR.

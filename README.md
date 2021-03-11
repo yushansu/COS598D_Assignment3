@@ -10,7 +10,7 @@ Efficient Neural Architecture Search via Parameter Sharing (ENAS)[1] and DARTS: 
 
 # Your tasks
 - [ ] Installing toolkit NNI following the [instruction](https://nni.readthedocs.io/en/stable/Tutorial/InstallationLinux.html#installation) 
-- [ ] Perform CNN architecture search for Cifar10 (training and testing datasets are automatically split). You need to compare ENAS and DARTS. Please record the top1 testing accuracy per GPU hours. You can present the results using a figure (referring to Figure 3 of [2]). Single-trial experiments will be fine. Please use the same GPU types for a fair comparison.
+- [ ] Perform CNN architecture search for Cifar10 (training and testing datasets are automatically split). You need to compare ENAS and DARTS. Please record the top1 testing accuracy per GPU hours. You can present the results using a figure (referring to Figure 3 of [2]). Single-trial experiments will be fine. Please use the same GPU type for a fair comparison.
 - [ ] Implement retrain.py for ENAS method. Please refer to [code.](https://github.com/microsoft/nni/blob/master/examples/nas/darts/retrain.py). Please report the top 1 accuracy after retraining.
 - [ ] Show the final architecture for each method. %%Bonus%% - Check the visualization method on NNI [Document](https://nni.readthedocs.io/en/stable/NAS/Visualization.html?highlight=visualizationhttps://nni.readthedocs.io/en/stable/NAS/Visualization.html?highlight=visualization)
 - [ ] You are required to submit a report to show the comparison results, discuss the results, and analyze the limitation of ENAS and DARTS.
@@ -40,6 +40,6 @@ cd examples/nas/enas/
 python3 search.py --search-for micro --v1 --visualization
 ```
 ### Retrain
-Your need to implement the retraining code first and run retrain. Please refer to [retrain.py](https://github.com/microsoft/nni/blob/master/examples/nas/darts/retrain.py)
+Your need to implement the retraining code first and run retrain. You are refer to [retrain.py](https://github.com/microsoft/nni/blob/master/examples/nas/darts/retrain.py) of DARTS or [this repo](https://github.com/zuimeiyujianni/ENAS_micro_retrain_Pytorch).
 
 

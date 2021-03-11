@@ -11,6 +11,7 @@ Efficient Neural Architecture Search via Parameter Sharing (ENAS)[1] and DARTS: 
 # Your tasks
 - [ ] Installing toolkit NNI following the [instruction](https://nni.readthedocs.io/en/stable/Tutorial/InstallationLinux.html#installation) 
 - [ ] Perform CNN architecture search for Cifar10 (training and testing datasets are automatically split). You need to compare ENAS and DARTS. Please record the top1 testing accuracy per GPU hours. You are encouraged to repeat the expriment for multiple trials if time is allowed. But single trial is fine. You can present the results using a figure (referring to Figure 3 of [2]). Please use the same GPU types for comparison. Read the document about how to use NNI for NAS: [Document](https://nni.readthedocs.io/en/stable/nas.html).
+- [ ] Implement retrain.py for ENAS method. Please refer to [code.]
 - [ ] Show the final architecture for each method. %%Bonus%% - Check the visualization method on NNI [Document](https://nni.readthedocs.io/en/stable/NAS/Visualization.html?highlight=visualizationhttps://nni.readthedocs.io/en/stable/NAS/Visualization.html?highlight=visualization)
 - [ ] You are required to submit a report to show the comparison results, discuss the results, and analyze the limitation of ENAS and DARTS.
 
@@ -23,7 +24,9 @@ Python >= 3.6, Pytorch >= 1.7.0
 # search the best architecture
 cd examples/nas/darts
 python3 search.py --v1 --visualization
-
+```
+### Retrain
+```
 # train the best architecture
 python3 retrain.py --arc-checkpoint ${Your saved checkpoint}
 ```
@@ -34,7 +37,9 @@ python3 retrain.py --arc-checkpoint ${Your saved checkpoint}
 cd examples/nas/enas/
 
 # search in micro search space, where each unit is a cell
-python3 search.py --search-for micro
+python3 search.py --search-for micro --v1 --visualization
 ```
+### Retrain
+Your need to implement the retraining code first and run retrain. The retraininig code can refer to [retrain.py](https://github.com/microsoft/nni/blob/master/examples/nas/darts/retrain.py)
 
 

@@ -40,6 +40,6 @@ cd examples/nas/enas/
 python3 search.py --search-for micro --v1 --visualization
 ```
 ### Retrain
-Your need to implement the retraining code first and run retrain. The retraininig code can refer to [retrain.py](https://github.com/microsoft/nni/blob/master/examples/nas/darts/retrain.py)
+Your need to implement the retraining code first and run retrain. Please refer to [retrain.py](https://github.com/microsoft/nni/blob/master/examples/nas/darts/retrain.py)
 
 

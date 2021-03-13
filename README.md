@@ -43,3 +43,6 @@ python3 search.py --search-for micro --v1 --visualization
 Your need to implement the retraining code first and run retrain. You can refer to [retrain.py](https://github.com/microsoft/nni/blob/master/examples/nas/darts/retrain.py) of DARTS or [this repo](https://github.com/zuimeiyujianni/ENAS_micro_retrain_Pytorch).
 
 
+Remark: You may meet possible error on `.view` function in `utils.py.` Change it to `.reshape` will work.
+
+

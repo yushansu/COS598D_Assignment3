@@ -9,9 +9,10 @@ Efficient Neural Architecture Search via Parameter Sharing (ENAS)[1] and DARTS: 
 
 
 # Your tasks
+- [ ] Start EARLY. The training time of this assignment is very long.
 - [ ] Install toolkit NNI following the [instruction](https://nni.readthedocs.io/en/stable/Tutorial/InstallationLinux.html#installation) 
 - [ ] Perform CNN architecture search for Cifar10 (training and testing datasets are automatically split). You need to compare ENAS and DARTS. Both methods require retraining after searching.
-- [ ] Implement retrain.py for ENAS method. Please refer to [code](https://github.com/microsoft/nni/blob/master/examples/nas/darts/retrain.py). 
+- [ ] Implement retrain.py for ENAS method. Please refer to [code](https://github.com/yushansu/COS598D_Assignment3/blob/master/examples/nas/darts/retrain.py). 
 - [ ] Please record the top1 testing accuracy per GPU hour. You can present the results using a figure (referring to Figure 3 of [2]). Single-trial experiments will be fine. Please use the same GPU type for a fair comparison.
 - [ ] Show the final architecture for each method. %%Bonus%% - Check the visualization method on NNI [Document](https://nni.readthedocs.io/en/stable/NAS/Visualization.html?highlight=visualizationhttps://nni.readthedocs.io/en/stable/NAS/Visualization.html?highlight=visualization)
 - [ ] You are required to submit a report to show the comparison results, discuss the results, and analyze the limitation of ENAS and DARTS.
@@ -41,7 +42,7 @@ cd examples/nas/enas/
 python3 search.py --search-for micro --v1 --visualization
 ```
 ### Retrain
-Your need to implement the retraining code first and run retrain. You can refer to [retrain.py](https://github.com/microsoft/nni/blob/master/examples/nas/darts/retrain.py) of DARTS or [this repo](https://github.com/zuimeiyujianni/ENAS_micro_retrain_Pytorch).
+Your need to implement the retraining code first and run retrain. You can refer to [retrain.py](https://github.com/yushansu/COS598D_Assignment3/blob/master/examples/nas/darts/retrain.py) of DARTS or [this repo](https://github.com/zuimeiyujianni/ENAS_micro_retrain_Pytorch).
 
 
 Remark: You may meet possible error on `.view` function in `utils.py.` Change it to `.reshape` will work.

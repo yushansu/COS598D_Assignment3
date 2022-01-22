@@ -32,6 +32,7 @@ python3 search.py --v1 --visualization
 # train the best architecture
 python3 retrain.py --arc-checkpoint ${Your saved checkpoint}
 ```
+Remark: You may meet possible error on `.view` function in `utils.py.` Change it to `.reshape` will work.
 
 ## ENAS
 ### Search 
@@ -45,6 +46,6 @@ python3 search.py --search-for micro --v1 --visualization
 Your need to implement the retraining code first and run retrain. You can refer to [retrain.py](https://github.com/yushansu/COS598D_Assignment3/blob/master/examples/nas/darts/retrain.py) of DARTS or [this repo](https://github.com/zuimeiyujianni/ENAS_micro_retrain_Pytorch).
 
 
-Remark: You may meet possible error on `.view` function in `utils.py.` Change it to `.reshape` will work.
+
 
 

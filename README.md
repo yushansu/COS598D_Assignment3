@@ -14,7 +14,7 @@ Efficient Neural Architecture Search via Parameter Sharing (ENAS)[1] and DARTS: 
 - [ ] Perform CNN architecture search for Cifar10 (training and testing datasets are automatically split). You need to compare ENAS and DARTS. Both methods require retraining after searching.
 - [ ] Implement retrain.py for ENAS method. Please refer to [code](https://github.com/yushansu/COS598D_Assignment3/blob/master/examples/nas/darts/retrain.py). 
 - [ ] Please record the top1 testing accuracy per GPU hour (referring to Figure 3 of [2]). You can present the results using a figure. Single-trial experiments will be fine. Please use the same GPU type for a fair comparison.
-- [ ] Show the final architecture for each method. %%Bonus%% - Check the visualization method on NNI [Document](https://nni.readthedocs.io/en/v1.9/NAS/Visualization.html)
+- [ ] Show the final architecture for each method. %%Bonus%% - Check the visualization method on NNI [Document](https://nni.readthedocs.io/en/v2.6/NAS/QuickStart.html#visualize-the-experiment)
 - [ ] You are required to submit a report to show the comparison results, discuss the results, and analyze the limitation of ENAS and DARTS.
 
 # How to run?
